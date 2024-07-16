@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>weather1</class>
+ <widget class="QDialog" name="weather1">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>120</y>
+     <width>371</width>
+     <height>401</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>Совет</string>
+   </property>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>20</y>
+      <width>300</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Вам стоит одеть футболку,джинсы,легкие кроссовки</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>80</y>
+      <width>320</width>
+      <height>171</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../mans-jeans-t-shirts-isolated-design.webp</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>60</y>
+      <width>201</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Пример одежды для данной погоды:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>371</width>
+      <height>401</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../white.jpg</pixmap>
+    </property>
+   </widget>
+   <zorder>label_3</zorder>
+   <zorder>label_4</zorder>
+   <zorder>label_6</zorder>
+   <zorder>label_5</zorder>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>600</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>../1645833842_6-vsegda-pomnim-com-p-letnie-oblaka-foto-8.jpg</pixmap>
+   </property>
+  </widget>
+  <widget class="QGroupBox" name="groupBox_2">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>120</y>
+     <width>371</width>
+     <height>391</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>Совет</string>
+   </property>
+   <widget class="QLabel" name="label_7">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>20</y>
+      <width>300</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Вам стоит одеть футболку,джинсы,легкие кроссовки</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_8">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>80</y>
+      <width>320</width>
+      <height>171</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../mans-jeans-t-shirts-isolated-design.webp</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_9">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>60</y>
+      <width>201</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Пример одежды для данной погоды:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_10">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>20</y>
+      <width>371</width>
+      <height>381</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../white.jpg</pixmap>
+    </property>
+   </widget>
+   <zorder>label_10</zorder>
+   <zorder>label_7</zorder>
+   <zorder>label_8</zorder>
+   <zorder>label_9</zorder>
+  </widget>
+  <zorder>label</zorder>
+  <zorder>groupBox</zorder>
+  <zorder>groupBox_2</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
